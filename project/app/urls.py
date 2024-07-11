@@ -7,5 +7,7 @@ urlpatterns = [
     path('hello/', hello_world, name="hello"),
     path('bot/', chat, name="chat"),
     path('delete-chat/', delete_chat_records, name='delete_chat_records'),
-    # path('bot-embedding/', chat_embeddings, name="chat_embeddings"),
+    path('chat-history/', chat_history, name='chat_history'),
+    path('carbon-reduction/', carbon_reduction, name='chat-reduction'),
+    
 ]
